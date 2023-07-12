@@ -11,10 +11,15 @@ view helpder
 
 <nav>
   <ul>
-    {% for item in site.navigation %}
+   
       <li>
-        <a href="{{ item.url }}">{{ item.text }}</a>
+       [a home](Home.md)
+         </li>
+         <li>
+       [a new](newhome.md)</li>
+       <li>
+       [a test](test.md)
       </li>
-    {% endfor %}
+   
   </ul>
 </nav>
