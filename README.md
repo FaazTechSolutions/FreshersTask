@@ -9,11 +9,13 @@ view helpder
 
 [a newhome](newHome.md)
 
+[a test](test.md)
+
 <nav>
   <ul>
    {% for item in site.navigation %}
       <li>
-      {%  [a home](Home.md) %}
+       [a home](Home.md)
          </li>
          <li>
       {%  [a new](newhome.md)  %}
