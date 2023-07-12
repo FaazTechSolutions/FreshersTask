@@ -11,7 +11,7 @@ view helpder
 
 <nav>
   <ul>
-   
+   {% for item in site.navigation %}
       <li>
        [a home](Home.md)
          </li>
@@ -20,6 +20,6 @@ view helpder
        <li>
        [a test](test.md)
       </li>
-   
+   {% for item in site.navigation %}
   </ul>
 </nav>
