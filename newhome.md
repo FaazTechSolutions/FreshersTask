@@ -1,6 +1,6 @@
 <nav>
 <ul>
-  <li><a href="/home">Home</a></li>
+  <li><a href="../home">Home</a></li>
   <li><a href="news.asp">News</a></li>
   <li><a href="contact.asp">Contact</a></li>
   <li><a href="about.asp">About</a></li>
