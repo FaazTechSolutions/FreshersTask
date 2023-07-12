@@ -13,12 +13,13 @@ view helpder
   <ul>
    {% for item in site.navigation %}
       <li>
-       [a home](Home.md)
+      {%  [a home](Home.md) %}
          </li>
          <li>
-       [a new](newhome.md)</li>
+      {%  [a new](newhome.md)  %}
+         </li>
        <li>
-       [a test](test.md)
+       {%  [a test](test.md)  %}
       </li>
    {% for item in site.navigation %}
   </ul>
