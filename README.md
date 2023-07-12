@@ -5,4 +5,4 @@
 text- alignmnet
 view helpder
 
-[a relative link](Home.md)
+[a home](Home.md)
