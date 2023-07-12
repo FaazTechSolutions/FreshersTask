@@ -8,14 +8,13 @@
   <nav aria-label="Main" id="site-nav" class="site-nav">
     
       <ul class="nav-list">
-      
+      {% if pages_top_size > 0 %}
           <li class="nav-list-item external">
-            <a href="{{ node.url | absolute_url }}" class="nav-list-link external">
-              {{ node.title }}
-              {% unless node.hide_icon %}<svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg>{% endunless %}
+            <a href="/home.html" class="nav-list-link external">
+              home             
             </a>
           </li>
-     
+     {% endif %}
       </ul>
  
    
