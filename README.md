@@ -7,7 +7,7 @@ view helpder
 
 [a home](Home.md)
 
-[a newhome](newHome.md)
+[a newhome](newHome.html)
 
 <nav>
   <ul>
